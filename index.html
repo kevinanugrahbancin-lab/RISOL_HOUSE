@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Risol House - Katalog Produk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">🥟 Risol House</div>
+
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#produk">Produk</a>
+            <a href="#pesanan">Pesanan</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+        <div class="hero-content">
+            <span class="tagline">HOMEMADE FOOD</span>
+
+            <h1>Renyah di Luar,<br>Lezat di Dalam!</h1>
+
+            <p>
+                Nikmati berbagai pilihan risol dengan
+                rasa yang lezat dan harga terjangkau.
+            </p>
+
+            <a href="#produk" class="hero-button">
+                Lihat Produk
+            </a>
+        </div>
+    </section>
+
+    <!-- PRODUK -->
+    <main class="container" id="produk">
+
+        <div class="section-heading">
+            <span>MENU KAMI</span>
+            <h2>Pilihan Risol Favorit</h2>
+            <p>Pilih rasa favoritmu dan pesan sekarang!</p>
+        </div>
+
+        <!-- PENCARIAN -->
+        <input
+            type="text"
+            id="search"
+            class="search"
+            placeholder="Cari risol favoritmu..."
+        >
+
+        <!-- DAFTAR PRODUK -->
+        <div class="product-list" id="productList"></div>
+
+    </main>
+
+    <!-- KERANJANG -->
+    <section class="cart-section" id="pesanan">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <span>KERANJANG</span>
+                <h2>Pesanan Kamu</h2>
+            </div>
+
+            <div id="cartList"></div>
+
+            <div class="cart-total">
+                <span>Total Pembayaran:</span>
+                <strong id="totalPrice">Rp0</strong>
+            </div>
+
+            <button id="checkoutBtn" class="checkout-btn">
+                Pesan Melalui WhatsApp
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>🥟 Risol House</h2>
+
+        <p>Renyah di luar, lezat di dalam!</p>
+
+        <p class="copyright">
+            &copy; 2026 Risol House. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

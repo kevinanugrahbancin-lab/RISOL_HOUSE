@@ -8,21 +8,21 @@ const products = [
         id: 1,
         name: "Risol Mayo",
         price: 3000,
-        image: "images/risol-mayo.jpeg",
+        image: "risol-mayo.jpeg",
         description: "Risol renyah dengan isian mayo yang creamy dan lezat."
     },
     {
         id: 2,
         name: "Risol Ayam Suwir",
         price: 3000,
-        image: "images/risol-ayam.jpeg",
+        image: "risol-ayam.jpeg",
         description: "Risol gurih dengan isian ayam suwir yang nikmat."
     },
     {
         id: 3,
         name: "Risol Cokelat",
         price: 3000,
-        image: "images/risol-cokelat.jpeg",
+        image: "risol-cokelat.jpeg",
         description: "Risol renyah dengan isian cokelat manis."
     }
 ];
